@@ -1,5 +1,13 @@
 nav {
   background-color: DarkTurquoise;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#nav li {
+  display: inline;
+  list-style-type: none;
 }
 
 img {
