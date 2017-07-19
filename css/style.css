@@ -1,7 +1,6 @@
 nav {
-  position: fixed;
-  top: 0;
-  left: 0;
+  position: absolute;
+  margin-top: 20px;
   height: 1.3em;
   width: 100vw;
 }
@@ -49,4 +48,21 @@ header {
   padding: 25px;
   border-radius: 25px;
   text-align: center;
+}
+
+#greeting {
+  position: relative;
+  background-color: #687a99;
+  border-style: groove;
+  border-color: black;
+  border-width: medium;
+  clear: both;
+}
+
+#greeting p {
+  color: #393c42;
+  font-family: Verdana;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
 }
