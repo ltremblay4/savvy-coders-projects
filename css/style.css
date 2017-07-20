@@ -7,21 +7,51 @@ nav {
 
 #nav li {
   display: inline;
-  list-style-type: none;
 }
 
 #header {
   margin-top: 1.3em;
 }
 
-img {
+.centerpic {
+  display: block;
+  margin: auto;
+  height: 25%;
+  width: 25%;
   border-radius: 25px;
   border-style: solid;
   border-color: LightSeaGreen;
 }
 
-h1 {
-  color: CadetBlue;
+.myname {
+  color: #5f9ea0;
+  text-align: center;
+}
+
+.facts {
+  width: 25%;
+  margin: 50px auto 50px auto;
+  list-style-type: square;
+}
+
+/* unvisited link */
+a:link {
+    color: #5f9ea0;
+}
+
+/* visited link */
+a:visited {
+    color: #5f9ea0;
+}
+
+/* mouse over link */
+a:hover {
+    color: #5e81ad;
+}
+
+/* selected link */
+a:active {
+    color: #5e81ad;
 }
 
 p {
@@ -29,8 +59,8 @@ p {
   margin: auto;
 }
 
-#purple {
-  color: Magenta;
+.blue {
+  color: #5e81ad;
 }
 
 .container {
@@ -43,11 +73,12 @@ form {
 }
 
 header {
-  background-image: url("https://lh3.googleusercontent.com/XPiWHQiuc1KgLWA_WddnamzKbHFr7OXmvRN45WwV9TyQfKvwzcCVCTG3V3-tXBOAa_RlS63LHMltDSk8ZpOZmScWQP4KCgE-KilUB3gkaIVkeqEhtcRM4iArfX5vf6Rm0PwEail8xmtAqTpDKkJe0QNpAkj0O0CZBc0K4fWukcipia-y5Go5MGCtEjkP-nto-knJGa-wR5cB17iVV1xMikF87UeCaD8Qtlk-ADCqKDrb3jHE9F_M-TlJY4L5AW2xUjqONMoRjh4pg7JFQ3ptDJ1YUaIwwUkCArNwl0ZmWspYqRGmUkRhtB-klztbjo1KBbp5QZjCLyd733APmFvnTP6JrBQXHK9pyZjBzFSqhbYTNbvSrlhbi40Ui2TojidgRbNEFGuutbqgKdHXOmLZNgA_L6F-mCppLoXelE06mN4I6rKFhvm0CS6N2TGMqPhQcjBEcKbqwOweyyQKVHdomr8EllFYSsyQJbd3BzuADS0Q07eN_RYaf1qyjtksXsnwSDQF_CTIe_Xq32KEW3ZOv4CdVdHJbM5gF3nJtT06us9h2-_-CjoX_iXVz5Ivno-KtV1Z2S1d637ZvWt6WApamXMOlle1EX8Lus4b2M18LaAfYmc_v7xDAQ=w2050-h1538-no");
-  margin: auto;
+  background-image: url("../blog/img/pexels-photo-262508.jpeg");
+  background-size: 1200px 200px;
   padding: 25px;
   border-radius: 25px;
   text-align: center;
+  margin: 0px 250px 0px 250px;
 }
 
 #greeting {
