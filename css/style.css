@@ -19,8 +19,6 @@ nav {
   height: 25%;
   width: 25%;
   border-radius: 25px;
-  border-style: solid;
-  border-color: LightSeaGreen;
 }
 
 .myname {
@@ -54,6 +52,14 @@ a:active {
     color: #5e81ad;
 }
 
+.middleblog {
+  width: 45%;
+  margin: auto;
+  padding: 40px;
+  text-align: center;
+  color: #5f9ea0;
+}
+
 p {
   width: 45%;
   margin: auto;
@@ -83,15 +89,12 @@ header {
 
 #greeting {
   position: relative;
-  background-color: #687a99;
-  border-style: groove;
-  border-color: black;
-  border-width: medium;
+  background-color: #5f9ea0;
   clear: both;
 }
 
 #greeting p {
-  color: #393c42;
+  color: White;
   font-family: Verdana;
   text-align: center;
   font-style: italic;
