@@ -30,6 +30,7 @@ nav {
   width: 25%;
   margin: 50px auto 50px auto;
   list-style-type: square;
+  line-height: 2em;
 }
 
 /* unvisited link */
@@ -99,4 +100,17 @@ header {
   text-align: center;
   font-style: italic;
   font-weight: bold;
+}
+
+.highlighted {
+  text-decoration: underline;
+  font-style: italic;
+  color:red;
+}
+
+#hidden-blurb {
+  display: none;
+  text-align: center;
+  color:#d37268;
+  font-style: italic;
 }
