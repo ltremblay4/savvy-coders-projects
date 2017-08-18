@@ -9,13 +9,7 @@ $('.centerpic').click(function(){
   $('#hidden-blurb').slideDown();
 })
 
-$('.myname').hover(function(){
-  $(this).slideUp()
-})
 
-$('.myname').on('mouseleave', function(){
-  $(this).slideDown()
-})
 
 var contactArray = [
   "Lauren Tremblay",

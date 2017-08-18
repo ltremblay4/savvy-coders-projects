@@ -1,5 +1,6 @@
+/*Navigation bar*/
+
 nav {
-  position: absolute;
   margin-top: 20px;
   height: 1.3em;
   width: 100vw;
@@ -8,6 +9,8 @@ nav {
 #nav li {
   display: inline;
 }
+
+/*Home page*/
 
 #header {
   margin-top: 1.3em;
@@ -27,8 +30,7 @@ nav {
 }
 
 .facts {
-  width: 25%;
-  margin: 50px auto 50px auto;
+  margin: 50px auto 50px 250px;
   list-style-type: square;
   line-height: 2em;
 }
@@ -53,13 +55,7 @@ a:active {
     color: #5e81ad;
 }
 
-.middleblog {
-  width: 45%;
-  margin: auto;
-  padding: 40px;
-  text-align: center;
-  color: #a4eaec;
-}
+/*Blog page*/
 
 p {
   width: 45%;
@@ -68,11 +64,6 @@ p {
 
 .blue {
   color: #5e81ad;
-}
-
-.container {
-  max-width: 960px;
-    margin: 0 auto;
 }
 
 form {
@@ -88,10 +79,14 @@ header {
   margin: 0px 350px 0px 350px;
 }
 
+/*Media page*/
+
 #greeting {
   position: relative;
   background-color: #5f9ea0;
   clear: both;
+  margin-left: 25em;
+  margin-right: 25em;
 }
 
 #greeting p {
@@ -100,6 +95,11 @@ header {
   text-align: center;
   font-style: italic;
   font-weight: bold;
+}
+
+.coffee {
+  text-align: center;
+  margin: 5em;
 }
 
 .highlighted {
@@ -128,7 +128,8 @@ header {
 #blog-welcome {
   font-size: 24px;
   font-family: 'Acme', sans-serif;
-  color: #5f9ea0;
+  color: #d37268;
+  margin-top: 2em;
 }
 
 #blogging {
@@ -144,9 +145,63 @@ header {
   border-radius: 20px;
 }
 
-.content {
+.grey {
   background: #8e9eab;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
+
+/*Projects page*/
+
+.projects-body {
+  background-color: #d3ecec;
+}
+
+.project-headline {
+  text-align: center;
+  font-family: 'Sedgwick Ave', cursive;
+  color: #416c6d;
+}
+
+.project-links {
+text-align: center;
+padding-left: 35%;
+padding-right: 40%;
+}
+
+.project-pic {
+  display: block;
+  margin: auto;
+}
+
+/*Contact page*/
+
+.contact-body {
+  margin-top: 8em;
+  text-align: center;
+}
+
+.emphasize {
+  display: inline;
+  font-size: 1.5em;
+  font-style: italic;
+  color: #d37268;
+}
+
+.container {
+  font-family: 'Vidaloka', serif;
+  max-width: 960px;
+    margin: 0 auto;
+}
+
+.smiley {
+  height: 10%;
+  width: 10%;
+}
+
+/*Sandbox page*/
+
+.sandbox-area {
+  margin-top: 8em;
 }

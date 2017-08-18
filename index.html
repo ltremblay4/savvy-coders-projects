@@ -7,15 +7,25 @@
     <title>Lauren Tremblay | Web Developer</title>
     <link type="text/css" rel="stylesheet" href="css/style.css"/>
   </head>
-
   <body>
+    <!--Navigation bar-->
       <nav class="nav">
         <ul>
         <li><a href="/">Home</a></li>
+        <!--Projects with dropdown list-->
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="/projects">Projects
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="/projects/student-showcase">Student Showcase</a></li>
+          <li><a href="/projects/choose-your-own-adventure">Choose Your Own Adventure</a></li>
+          <li><a href="/projects/SavvyBookstoreJuly2017">Savvy Bookstore</a></li>
+            <li><a href="/projects/sandbox">Sandbox</a></li>
+          <li><a href="/projects/sentence-scrambler">Sentence Scrambler</a></li>
+        </ul>
+      </li>
         <li><a href="/blog">Blog</a></li>
         <li><a href="/media">Media</a></li>
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/projects/choose-your-own-adventure">Choose Your Own Adventure</a></li>
         <li><a href="/contact">Contact</a></li>
       </ul>
     </nav>
@@ -35,9 +45,9 @@
 <!--List of facts about Lauren-->
 
     <ul class="facts">
+      <li>Completed 60 hour class in Front End Web Development with SavvyCoders in August 2017</li>
       <li>Member of SAG-AFTRA</li>
       <li>Work full-time as a Financial Analyst</li>
-      <li>Studying Web Development with SavvyCoders</li>
     </ul>
     <hr>
 
@@ -49,14 +59,18 @@
     <a href="https://www.facebook.com/ltremblay4">Facebook</a><br>
     <a href="https://twitter.com/LaurenTremblay4">Twitter</a><br><br>
 
+<!--Contact/Email me link-->
+
     <a href="mailto:ltremblay4@yahoo.com?Subject=Contact%20Form">Or send me an email!</a><br><br>
 
     <ul id="contact-list">
     </ul>
 
+<!--Google map location-->
+
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3266.523250250664!2d-85.31130708546218!3d35.043654972282035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88605e7c73cb3f0b%3A0x8a9795245d49a8ea!2sThe+Edney+Innovation+Center!5e0!3m2!1sen!2sus!4v1499903028403" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <script type="text/javascript" src="../script/home.js"></script>
+    <script type="text/javascript" src="script/home.js"></script>
   </body>
   </html>
